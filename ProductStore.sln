@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductStore.Api", "Product
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{52396453-81C0-4C1E-9A40-BBE7E3656020}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductStore.Api.Tests", "ProductStore.Api.Tests\ProductStore.Api.Tests.csproj", "{C5264701-7AE8-4A43-835C-4DB4CD45B03B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +19,16 @@ Global
 		{7E6EA42D-8B61-47B2-A34E-22D29E1FBC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E6EA42D-8B61-47B2-A34E-22D29E1FBC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E6EA42D-8B61-47B2-A34E-22D29E1FBC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5264701-7AE8-4A43-835C-4DB4CD45B03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5264701-7AE8-4A43-835C-4DB4CD45B03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5264701-7AE8-4A43-835C-4DB4CD45B03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5264701-7AE8-4A43-835C-4DB4CD45B03B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5264701-7AE8-4A43-835C-4DB4CD45B03B} = {52396453-81C0-4C1E-9A40-BBE7E3656020}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E5711EF-03F4-4E05-B4BB-A767E932E0B3}
